@@ -33,5 +33,5 @@ jobs:
         sudo chmod a+rx /usr/local/bin/youtube-dl
     # Download audio File 
     - name: Download Audio File  
-      run: youtube-dl -f 'bestaudio[ext=m4a]' 'https://www.facebook.com/2963957556998234'
+      run: youtube-dl -o episode.m4a  -f 'bestaudio[ext=m4a]' 'https://www.facebook.com/2963957556998234'
         
